@@ -1,0 +1,18 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'M PLUS Rounded 1c', sans-serif;  
+}
+
+:root {
+    --C_principal: #7e4cea;
+    --C_oscuro:#4f3a99;
+    --C_clara:#a68ee8;
+    --V_pricipal:#88fc84;
+    --V_clara:#a9ffa9;
+    --V_Clara_plus:#d9ffa9;
+    --G_texo:#868686;
+    --G_fondo:#b1b1b1;
+    --G_borde:#c5c5c5;
+  }
+

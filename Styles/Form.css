@@ -1,0 +1,88 @@
+
+.form_conteiner{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.form_content{
+    width: 80%;
+    max-width: 700px;
+    display: flex;
+    justify-content: center;
+    border: 0.5px solid var(--G_texo);
+    border-radius: 20px;
+}
+
+
+.form_content .form_data{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    align-items: center;
+    width: 100%;
+}
+
+
+.form_data p{
+    color: var(--C_principal);
+    margin-bottom: 10px;
+}
+.input_data{    
+    border: none;
+    padding: 10px 15px 10px 15px;
+    border: 2px solid var(--G_texo);
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    color: var(--G_texo);
+    font-size: 15px;
+}
+.input_data:focus{
+    outline: none;
+}
+.table_form{
+    width: 100%;
+}
+
+
+.input_container{
+    padding: 10px;
+}
+
+.checkbox_container{
+    display: grid;
+    grid-template-rows: 1fr 1fr ;
+}
+
+.checkbox_content{
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    gap: 13px;
+}
+
+.checkbox_content input{
+    height: 55px;
+    width: 40px;    
+    border: none;
+}
+
+.checkbox_content label{
+    font-size: 13px;
+    width: 350px;
+    color: var(--G_texo);
+}
+
+.other_text{
+    font-size: 13px;
+    color: var(--G_texo);
+}
+
+.other_text strong{
+    color: var(--C_principal);
+}

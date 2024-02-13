@@ -1,0 +1,113 @@
+@import url("./global.css");
+
+.log_container img{
+    width: calc(210px + 15vw);
+    max-width: 400px;
+}
+.body_index{    
+    height: 100vh;
+    background: var(--C_principal);   
+    display: flex;         
+    justify-content: center;
+    align-items: center;      
+}
+
+.paragrafe_container .prin_text{
+    color: white;
+    font-size: calc(16px + 0.3vw);
+    max-width: 700px;
+    margin: 20px 10px 20px 10px;
+}
+
+.paragrafe_container .second_text{
+    color: var(--V_pricipal);
+    margin: 20px 0px 20px 0px;
+    font-weight: 900;
+}
+
+@media (max-height: 970px) {
+    .body_index{            
+        height: 30vh;
+    }
+}
+@media (max-width: 786px) {
+    .paragrafe_container .prin_text{        
+        font-size: 30px;      
+        margin: 30px 20px 30px 20px;
+    }
+    
+}
+.index_container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;    
+    height: 50%;
+    gap: 50px;
+    align-self: center;
+}
+.index_footer{    
+    height: fit-content;
+    background: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+    position: absolute;
+    bottom: 0;
+}
+
+.payment_content{
+    display: flex;
+    align-items: center;    
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.payment_text{
+    color: var( --G_texo);
+    font-size: calc(14px + 0.5vw);
+    max-width: 600px;
+    font-weight: 500;
+}
+
+.payment_img_container{
+    display: flex;
+    list-style: none;   
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.payment_img {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    min-width: 100px;
+    min-height: 100px;
+    max-width: 150px;
+    max-height: 150px;
+}
+.btn_cont button{
+    border: none;
+    background:none;
+    background: var(--V_pricipal);
+    color: var(--C_oscuro);
+    font-weight: bold;
+    padding: 10px 40px 10px 40px;
+    font-size: 22px;
+    border-radius: 10px;
+    font-weight: 900;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn_cont button:hover{
+    background: var(--C_oscuro);
+    color: var(--V_pricipal);
+}
+.btn_cont button:active{
+    background: var(--C_clara);
+}

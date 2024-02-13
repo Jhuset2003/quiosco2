@@ -1,0 +1,263 @@
+
+
+/*Estylos Del Header*/
+.header_store{
+    width: 100%;
+    background: var(--C_principal);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    padding: 30px;
+}
+
+.header_store img{
+    width: 200px;
+    height: 100px;    
+}
+/*Fin Estylos Del Header*/
+
+
+/*Contenedor de los productos*/
+.shoppy_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    
+}
+.shoppy_content{
+    width: 80%;
+    max-width: 700px;
+    display: flex;
+    justify-content: center;
+    border: 0.5px solid var(--G_texo);
+    border-radius: 20px;
+}
+.shoppy_margin{
+    width: 100%;
+    height: 95%;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;   
+    flex-direction: column;
+    
+    
+}
+.nav_shoppy{
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    width: 100%;
+    font-weight: 700;
+    margin-top: 0.5px;
+}
+
+.pasaporte{    
+    background-color: var(--C_oscuro);
+    display: flex;
+    justify-content: center;    
+    align-items: center;    
+    color: white;
+    border-top-right-radius:20px ;
+    border-top-left-radius:20px ;
+}
+
+.current_date{
+    background-color: var(--V_pricipal);
+    display: flex;
+    justify-content: center;    
+    align-items: center;    
+    color: var(--C_oscuro);
+    
+}
+
+
+
+/*Footer de las paginas de productos*/
+
+.footer_container{
+    width: 100%;
+}
+
+.shoppy_footer{
+    background-color: var(--C_oscuro);
+    display: flex;
+    justify-content: center;    
+    align-items: center;    
+    color: white;
+    padding: 10px 0px 10px 0px;
+}
+.experience_shoppy_footer{
+    background-color: var(--G_fondo);
+    display: flex;
+    justify-content: center;    
+    align-items: center;    
+    color: white;
+    padding: 10px 0px 10px 0px;
+}
+.sub_shoppy_footer{
+    background-color: var(--G_borde);
+    display: flex;
+    justify-content: center;    
+    align-items: center;    
+    color: white;
+    padding: 10px 0px 10px 0px;
+}
+.aplica_descuento_container{
+    width: 100%;
+    background: var(--C_principal);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aplica_descuento_text{
+    display: flex;
+    text-align: center;
+
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+    color: white;
+    font-size: 20px;
+}
+
+.input_des{
+    text-align: center;
+    border: none;    
+    border: 2px solid var(--G_texo);
+    border-radius: 1    px;    
+    color: var(--G_texo);
+    font-size: 15px;
+
+}
+
+.input_des:focus{
+    outline: none;
+}
+
+
+.aplica_descuento_btn{
+    background: none;
+    border: none;
+    background-color: black;
+    color: white;
+    width: auto;    
+    padding: 10px 30px 10px 30px;
+    border-radius: 15px;
+    font-weight:bold;
+    font-size: 15px;    
+    background-color: var(--V_pricipal);
+    color: var(--C_oscuro);
+    margin-bottom: 10px;
+    transition: 0.3s;
+}
+.aplica_descuento_btn:hover{
+    background-color: var(--C_oscuro);
+    color: white;
+    cursor: pointer;
+}   
+.aplica_descuento_btn:active{
+    background-color: var(--V_pricipal);
+} 
+/* fin Footer de las paginas de productos*/
+
+/*Btns Para pasa de pagina*/
+
+.btns_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;    
+    margin-top: 20px;
+}
+.btns_content{
+    width: 80%;
+    max-width: 700px;
+    display: flex;
+    justify-content: space-between;  
+}
+
+.btn_shoppy{
+    background: none;
+    border: none;
+    background-color: black;
+    color: white;
+    width: auto;
+    padding: 15px 70px 15px 70px;
+    border-radius: 15px;
+    font-weight:bold;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn_shoppy:hover{
+    padding: 15px 75px 15px 75px;
+}
+.ant{
+    background-color: var(--C_principal);
+}
+.ant:hover{
+    background-color: var(--C_oscuro);
+}
+.ant:active{
+    background-color: var(--C_principal);
+}
+
+.next{
+    background-color: var(--V_pricipal);
+    color: var(--C_oscuro);
+    transition: 0.3s;
+
+}
+.next:hover{
+    background-color: var(--V_clara);
+    
+}
+.next:active{
+    background-color: var(--V_pricipal);
+}
+
+/*Fin Btns Para pasa de pagina*/
+
+
+.shoppy_body{
+    
+    display: flex;
+    align-items: center;    
+    flex-direction: column;    
+    overflow-y: scroll;  
+    scroll-behavior: smooth;
+    animation: fade-in 0.3s forwards;    
+    
+}
+@keyframes fade-in{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+.shoppy_body::-webkit-scrollbar{
+    background: #a68ee88e;
+    width: 7px;
+
+}
+.shoppy_body::-webkit-scrollbar-thumb{
+    background: var(--C_clara);
+
+}
+.card_container{
+    width: 98%;
+    height: 96%;
+    padding-right: 10px;
+    margin-top: 10px;
+    overflow-y: scroll;    
+}
+
+
+
+
+

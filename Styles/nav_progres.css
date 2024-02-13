@@ -1,0 +1,49 @@
+@import url("./global.css");
+
+.nav_progres_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.nav_progres_content{
+    position: relative;
+}
+
+.back_slide{    
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.back_slide hr{
+    background: var(--C_principal);
+    width: 100%;
+    border: none;
+    height: 3px;
+    z-index: 1;
+}
+.nav_progres{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    gap: 40px;
+}
+
+.progres{
+    background-color: var(--V_pricipal);
+    padding: 15px 25px 15px 25px;
+    border-radius: 15px;
+    color: var(--C_oscuro);
+    font-weight: 600;
+    transition: 0.5s;
+}
+.progres_active {
+    background-color: var(--C_principal);
+    color: white;
+}
